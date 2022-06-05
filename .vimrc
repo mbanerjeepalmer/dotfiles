@@ -120,3 +120,6 @@ endfu
 
 " Run Black on save.
 autocmd BufWritePre *.py execute ':Black'
+
+" Netrw opens files vertically
+let g:netrw_browse_split = 2
